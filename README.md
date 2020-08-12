@@ -1,0 +1,2 @@
+# TorontoNeighborhoods
+This is an exploration of Toronto's neighborhoods and what venues they have to offer.  An API call is made to Foursquare to gather venue information based upon geographical coordinates of various neighborhoods.  Pandas Dataframes are employed heavily.  Onehot encodings are made to separate venues by category. Finally SciKit-Learn's kMeans() function is utilized in order to classify neighborhoods according to most common venues.
